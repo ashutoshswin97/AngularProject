@@ -11,6 +11,16 @@ git fetch (all or particular branch name): fetch all the branches
 git pull: Fetch the updtes from remote repository and merged it into local equivelent as (git fetch + git merge)
 git reset HEAD <file>: Revert the local changes to last commit
 git reset --hard: Remove the local changes
+-------
+Locally create a repo and push to git
+step 1: Create a empty repo in git with sample name
+Step 2: Create the a folder with same repo name
+Step 3: Hit git init comand in the local folder repo
+Step 4: Add files 
+Step 5: Commit the locally added files to local repo by git add and git commit command
+Step 6: Push the repo by the command $ git remote add origin https://github.com/ashutoshswin97/Html.git
+Step 7: Push the changes to remote: git push -u origin master
+
 Development work going on
 Asutosh changed something
 2nd developer added the line
