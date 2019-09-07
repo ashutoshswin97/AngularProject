@@ -8,7 +8,9 @@ git checkout: To swith the branch from one branch to another.
 git status : Show the current status , what files got changed yet to commit and what giles are already in
  indexed in to stageing area
 git fetch (all or particular branch name): fetch all the branches
-
+git pull: Fetch the updtes from remote repository and merged it into local equivelent as (git fetch + git merge)
+git reset HEAD <file>: Revert the local changes to last commit
+git reset --hard: Remove the local changes
 Development work going on
 Asutosh changed something
 2nd developer added the line
